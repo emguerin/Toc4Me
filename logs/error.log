@@ -1,0 +1,26 @@
+2015-12-23 22:15:00 Error: [Cake\Database\Exception] Impossible to generate condition with empty list of values for field (request_id)
+Request URL: /toc4me/
+Stack Trace:
+#0 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/Expression/Comparison.php(133): Cake\Database\Expression\Comparison->_stringExpression(Object(Cake\Database\ValueBinder))
+#1 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php(417): Cake\Database\Expression\Comparison->sql(Object(Cake\Database\ValueBinder))
+#2 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(119): Cake\Database\Expression\QueryExpression->sql(Object(Cake\Database\ValueBinder))
+#3 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/Query.php(232): Cake\Database\QueryCompiler->Cake\Database\{closure}(Object(Cake\Database\Expression\QueryExpression), 'where')
+#4 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(98): Cake\Database\Query->traverse(Object(Closure), Array)
+#5 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/Driver.php(321): Cake\Database\QueryCompiler->compile(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#6 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/Connection.php(256): Cake\Database\Driver->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#7 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/Query.php(203): Cake\Database\Connection->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#8 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/ORM/Query.php(860): Cake\Database\Query->sql(Object(Cake\Database\ValueBinder))
+#9 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php(92): Cake\ORM\Query->sql()
+#10 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/Connection.php(216): Cake\Database\Driver\Sqlite->prepare(Object(Cake\ORM\Query))
+#11 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/Connection.php(268): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Database/Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 /opt/lampp/htdocs/toc4me/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php(94): Cake\Database\Query->execute()
+#14 /opt/lampp/htdocs/toc4me/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php(187): DebugKit\Model\Table\RequestsTable->gc()
+#15 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Event/EventManager.php(389): DebugKit\Routing\Filter\DebugBarFilter->afterDispatch(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#17 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#18 /opt/lampp/htdocs/toc4me/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(92): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.afte...', Array)
+#19 /opt/lampp/htdocs/toc4me/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
