@@ -24,3 +24,16 @@ Stack Trace:
 #20 {main}
 
 
+2016-01-11 07:32:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Cakephp could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/cakephp
+Stack Trace:
+#0 C:\wamp\www\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
