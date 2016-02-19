@@ -90,4 +90,9 @@ class AnnouncementsTable extends Table
         $rules->add($rules->existsIn(['toqueur_id'], 'Users'));
         return $rules;
     }
+
+    public function isOwnedBy($announcementId, $userId)
+    {
+        return $this->exists(['id' => $announcementId, 'announcer_id' => $userId]);
+    }
 }

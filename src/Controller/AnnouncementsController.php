@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Event\Event;
 
 /**
  * Announcements Controller
@@ -41,6 +42,34 @@ class AnnouncementsController extends AppController
         $this->set('_serialize', ['announcement']);
     }
 
+    public function beforeFilter (Event $event)
+    {
+        parent::beforeFilter($event);
+        $this->Auth->allow(['index','view']);
+    }
+
+    public function isAuthorized($user)
+    {
+        // Tous les utilisateurs enregistrés peuvent ajouter des articles
+        if (in_array($this->request->action, ['add','index','view'])) {
+            return true;
+        }
+
+        // Le propriétaire d'un article peut l'éditer et le supprimer
+        if (in_array($this->request->action, ['edit', 'delete'])) {
+            $announcementId = (int)$this->request->params['pass'][0];
+            if ($this->Announcements->isOwnedBy($announcementId, $user['id'])) {
+                return true;
+            }
+            else {
+                $this->Flash->default(__('This announcement is not yours.'));
+            }
+        }
+
+        return parent::isAuthorized($user);
+    }
+
+
     /**
      * Add method
      *
@@ -51,6 +80,9 @@ class AnnouncementsController extends AppController
         $announcement = $this->Announcements->newEntity();
         if ($this->request->is('post')) {
             $announcement = $this->Announcements->patchEntity($announcement, $this->request->data);
+            // ajout de la ligne qui lie l'annonce à l'utilisateur qui l'a crée
+            $announcement->announcer_id = $this->Auth->user('id');
+            $announcement->toqueur_id = $this->Auth->user('id');
             if ($this->Announcements->save($announcement)) {
                 $this->Flash->success(__('The announcement has been saved.'));
                 return $this->redirect(['action' => 'index']);

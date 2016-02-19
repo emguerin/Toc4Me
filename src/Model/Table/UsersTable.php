@@ -53,8 +53,8 @@ class UsersTable extends Table
             ->notEmpty('first_name');
 
         $validator
-            ->requirePresence('user_name', 'create')
-            ->notEmpty('user_name');
+            ->requirePresence('username', 'create')
+            ->notEmpty('username');
 
         $validator
             ->requirePresence('password', 'create')
@@ -80,6 +80,10 @@ class UsersTable extends Table
         $validator
             ->requirePresence('country', 'create')
             ->notEmpty('country');
+
+        $validator
+            ->requirePresence('role', 'create')
+            ->notEmpty('role');
 
         return $validator;
     }

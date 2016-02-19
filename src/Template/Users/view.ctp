@@ -19,13 +19,21 @@
             <td><?= h($user->first_name) ?></td>
         </tr>
         <tr>
-            <th><?= __('User Name') ?></th>
-            <td><?= h($user->user_name) ?></td>
+            <th><?= __('Year of birth') ?></th>
+            <td><?= h($user->year_of_birth) ?></td>
         </tr>
         <tr>
+            <th><?= __('Role') ?></th>
+            <td><?= h($user->role) ?></td>
+        </tr>
+        <tr>
+            <th><?= __('User Name') ?></th>
+            <td><?= h($user->username) ?></td>
+        </tr>
+        <!-- <tr>
             <th><?= __('Password') ?></th>
             <td><?= h($user->password) ?></td>
-        </tr>
+        </tr> -->
         <tr>
             <th><?= __('Email') ?></th>
             <td><?= h($user->email) ?></td>
@@ -55,8 +63,8 @@
             <td><?= h($user->modified) ?></td>
         </tr>
     </table>
-    <div class="row">
+    <!-- <div class="row">
         <h4><?= __('Year Of Birth') ?></h4>
         <?= $this->Text->autoParagraph(h($user->year_of_birth)); ?>
-    </div>
+    </div> -->
 </div>

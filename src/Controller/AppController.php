@@ -43,7 +43,37 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+        $this->loadComponent('Auth', [
+            'authorize' => ['Controller'],
+            'loginRedirect' => [
+                'controller' => 'Announcements',
+                'action' => 'index'
+            ],
+            'logoutRedirect' => [
+                'controller' => 'Pages',
+                'action' => 'display',
+                'home'
+            ]
+        ]);
     }
+
+    public function isAuthorized($user)
+    {
+        // Admin peuvent accéder à chaque action
+        if (isset($user['role']) && $user['role'] == 'admin') {
+            return true;
+        }
+
+        // Par défaut refuser
+        return false;
+    }
+
+
+    public function beforeFilter(Event $event)
+    {
+        $this->Auth->allow([/*'index', 'view', */'display']);
+    }
+
 
     /**
      * Before render callback.

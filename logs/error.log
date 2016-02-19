@@ -37,3 +37,426 @@ Stack Trace:
 #1 {main}
 
 
+2016-02-18 08:26:34 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 107
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-18 08:26:34 Error: Fatal Error (1): Call to undefined function App\Controller\allow() in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 110]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 08:26:34 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\allow()
+Request URL: /toc4me/users/login
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\toc...', 110)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 08:26:35 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 107
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-18 08:26:35 Error: Fatal Error (1): Call to undefined function App\Controller\allow() in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 110]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 08:26:35 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\allow()
+Request URL: /toc4me/users/login
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\toc...', 110)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 08:28:08 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 107
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-18 08:28:08 Error: Fatal Error (1): Call to undefined function App\Controller\allowMethod() in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 110]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 08:28:08 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\allowMethod()
+Request URL: /toc4me/users/login
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\toc...', 110)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 08:28:09 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 107
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-18 08:28:09 Error: Fatal Error (1): Call to undefined function App\Controller\allowMethod() in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 110]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 08:28:09 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\allowMethod()
+Request URL: /toc4me/users/login
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\toc...', 110)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 08:30:04 Error: Fatal Error (1): Call to undefined function App\Controller\allowMethod() in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 111]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 08:30:05 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\allowMethod()
+Request URL: /toc4me/users/login
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\toc...', 111)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 08:34:25 Error: Fatal Error (1): Call to undefined function App\Controller\allow() in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 111]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 08:34:26 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\allow()
+Request URL: /toc4me/users/login
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\toc...', 111)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 08:35:03 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 111]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 08:35:03 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /toc4me/users/login
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\toc...', 111)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 08:35:03 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 111]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 08:35:04 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /toc4me/users/login
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\toc...', 111)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 08:35:28 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 111]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 08:35:28 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /toc4me/users/login
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\toc...', 111)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 08:41:13 Error: Fatal Error (1): Class 'App\Model\Entity\DefaultPasswordHasher' not found in [C:\wamp\www\toc4me\src\Model\Entity\User.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 08:41:13 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\DefaultPasswordHasher' not found
+Request URL: /toc4me/users/add
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'C:\\wamp\\www\\toc...', 41)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 08:43:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Users.username' in 'where clause'
+Request URL: /toc4me/users/login
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\ORM\Query.php(878): Cake\Database\Query->execute()
+#6 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#7 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\ORM\Query.php(829): Cake\ORM\Query->_all()
+#8 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(395): Cake\ORM\Query->all()
+#9 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Auth\BaseAuthenticate.php(105): Cake\ORM\Query->first()
+#10 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Auth\FormAuthenticate.php(77): Cake\Auth\BaseAuthenticate->_findUser('admin01', '6e3g96iut')
+#11 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(769): Cake\Auth\FormAuthenticate->authenticate(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 C:\wamp\www\toc4me\src\Controller\UsersController.php(118): Cake\Controller\Component\AuthComponent->identify()
+#13 [internal function]: App\Controller\UsersController->login()
+#14 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#17 C:\wamp\www\toc4me\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2016-02-18 09:13:10 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\toc4me\src\Model\Table\UsersTable.php, line 87]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 09:13:11 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /toc4me/users/add
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\toc...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 09:13:11 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\toc4me\src\Model\Table\UsersTable.php, line 87]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 09:13:11 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /toc4me/users/add
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\toc...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 09:22:16 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\FormHelper::label() must be of the type array, string given, called in C:\wamp\www\toc4me\src\Template\Users\add.ctp on line 16 and defined in [C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 780]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+Cake\View\Helper\FormHelper::label() - CORE\src\View\Helper\FormHelper.php, line 780
+include - APP/Template\Users\add.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 984
+Cake\View\View::_render() - CORE\src\View\View.php, line 944
+Cake\View\View::render() - CORE\src\View\View.php, line 579
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-18 09:22:16 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 806]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 09:22:16 Error: [Cake\Error\FatalErrorException] Unsupported operand types
+Request URL: /toc4me/users/add
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Unsupported ope...', 'C:\\wamp\\www\\toc...', 806)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 10:35:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Add could not be found.
+Exception Attributes: array (
+  'class' => 'Add',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /toc4me/add
+Stack Trace:
+#0 C:\wamp\www\toc4me\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-18 10:40:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found.
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /toc4me/login
+Stack Trace:
+#0 C:\wamp\www\toc4me\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-18 10:46:06 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`toc4me`.`announcements`, CONSTRAINT `announcements_ibfk_1` FOREIGN KEY (`announcer_id`) REFERENCES `users` (`id`))
+Request URL: /toc4me/users/delete/3
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\ORM\Table.php(1715): Cake\Database\Query->execute()
+#6 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\ORM\Table.php(1647): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\User), Object(ArrayObject))
+#7 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#8 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\ORM\Table.php(1652): Cake\Database\Connection->transactional(Object(Closure))
+#9 C:\wamp\www\toc4me\src\Controller\UsersController.php(99): Cake\ORM\Table->delete(Object(App\Model\Entity\User))
+#10 [internal function]: App\Controller\UsersController->delete('3')
+#11 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#12 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#14 C:\wamp\www\toc4me\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2016-02-18 15:50:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Logout could not be found.
+Exception Attributes: array (
+  'class' => 'Logout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /toc4me/logout
+Stack Trace:
+#0 C:\wamp\www\toc4me\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-18 15:52:52 Warning: Warning (4096): Argument 1 passed to App\Controller\AnnouncementsController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\wamp\www\toc4me\src\Controller\AnnouncementsController.php, line 44]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+App\Controller\AnnouncementsController::beforeFilter() - APP/Controller\AnnouncementsController.php, line 44
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-18 15:52:53 Warning: Warning (4096): Argument 1 passed to App\Controller\AnnouncementsController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Event\EventManager.php on line 385 and defined in [C:\wamp\www\toc4me\src\Controller\AnnouncementsController.php, line 44]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 140
+App\Controller\AnnouncementsController::beforeFilter() - APP/Controller\AnnouncementsController.php, line 44
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-18 16:02:40 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 120]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 16:02:40 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')'
+Request URL: /toc4me/users
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\toc...', 120)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 16:02:41 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\toc4me\src\Controller\UsersController.php, line 120]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 16:02:41 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')'
+Request URL: /toc4me/users
+Stack Trace:
+#0 C:\wamp\www\toc4me\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\toc...', 120)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

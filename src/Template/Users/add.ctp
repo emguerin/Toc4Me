@@ -11,13 +11,20 @@
         <?php
             echo $this->Form->input('last_name');
             echo $this->Form->input('first_name');
-            echo $this->Form->input('user_name');
+            echo $this->Form->input('username');
             echo $this->Form->input('password');
-            echo $this->Form->input('year_of_birth');
+            echo $this->Form->label('User.year_of_birth');
+            echo $this->Form->year('User.year_of_birth', [
+                'minYear' => 1900,
+                'maxYear' => date('Y')
+            ]);
+            /*echo $this->Form->input('year_of_birth');*/
             echo $this->Form->input('email');
             echo $this->Form->input('city');
             echo $this->Form->input('state');
             echo $this->Form->input('country');
+            echo $this->Form->label('User.role');
+            echo $this->Form->select('role', ['admin' => 'admin', 'user' => 'user']);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
